@@ -1,0 +1,213 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Whats up",
+        "Whats cooking"
+      ],
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?",
+        "Hello! I'm Dexter. How may I help you?",
+        "Hey there!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "book_table",
+      "patterns": [
+        "Book a table",
+        "Can I book a table?",
+        "I want to book a table",
+        "Book seat",
+        "I want to book a seat",
+        "Can I book a seat?"
+      ],
+      "responses": [
+        "Sure, I can help you with that! Please provide me with the date and time you'd like to book."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "available_tables",
+      "patterns": [
+        "How many seats are available?",
+        "Available seats",
+        "How many tables are available?",
+        "Available tables"
+      ],
+      "responses": ["We currently have X tables/seats available."],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Have a Good day",
+        "cya later",
+        "I gotta go now",
+        "I gotta rush now",
+        "bye bye",
+        "bye!"
+      ],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+      "context_set": ""
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old",
+        "how old is Dexter",
+        "what is your age",
+        "how old are you",
+        "age?"
+      ],
+      "responses": [
+        "My master built me just a month ago.",
+        "Just a month old!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?"
+      ],
+      "responses": [
+        "You can call me Dexter.",
+        "I'm Dexter!",
+        "I'm Dexter aka The Restaurant Superbot."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "when are you guys open",
+        "what are your hours",
+        "hours of operation",
+        "hours",
+        "what is the timing"
+      ],
+      "responses": ["We are open 10 am-12 am Monday-Friday!"],
+      "context_set": ""
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "Id like to order something",
+        "whats on the menu",
+        "what do you recommend?",
+        "could I get something to eat",
+        "I'm hungry",
+        "Today's special?"
+      ],
+      "responses": [
+        "Sure, what would you like?",
+        "Our menu includes a variety of dishes. What type of cuisine are you in the mood for?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact information",
+        "contact us",
+        "how can I contact you",
+        "can I get the contact details",
+        "I wanna give some feedback",
+        "how can I give some feedback?"
+      ],
+      "responses": ["You can contact us at contact@restaurantname.com"],
+      "context_set": ""
+    },
+    {
+      "tag": "address",
+      "patterns": [
+        "what is the location?",
+        "whats the location",
+        "where are you located?",
+        "where is the restaurant located?",
+        "address",
+        "whats the address?"
+      ],
+      "responses": [
+        "You can locate us at Taj Lands End, Bandra Bandstand, Bandra West, Mumbai, Maharashtra 400 050"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Thanks a lot", "Thank you so much"],
+      "responses": [
+        "You're welcome!",
+        "Glad I could assist you!",
+        "Anytime! If you have more questions, feel free to ask."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "custom_order",
+      "patterns": [
+        "Can I customize my order?",
+        "I have dietary restrictions",
+        "Do you offer vegan options?",
+        "Can I make substitutions?"
+      ],
+      "responses": [
+        "Absolutely! We can accommodate custom orders. Please let us know your preferences, and we'll make it special for you."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "what_can_you_do",
+      "patterns": [
+        "What can you do?",
+        "What services do you offer?",
+        "Can you help with reservations?",
+        "Tell me your capabilities"
+      ],
+      "responses": [
+        "I can assist you with booking tables, providing information about our menu, restaurant hours, and address. Additionally, I can handle custom orders and help with general inquiries. If you have specific questions, feel free to ask!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "How's the weather today?",
+        "Tell me the weather",
+        "What's the weather like?"
+      ],
+      "responses": [
+        "I'm sorry, but I'm not equipped to provide real-time weather updates. You may want to check a weather website or app for the latest information."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "random_fact",
+      "patterns": [
+        "Tell me a random fact",
+        "Give me an interesting fact",
+        "Fascinate me with a fact"
+      ],
+      "responses": [
+        "Sure! Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible."
+      ],
+      "context_set": ""
+    }
+  ]
+}

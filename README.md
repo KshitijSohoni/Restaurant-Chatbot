@@ -26,4 +26,4 @@ The nltk library is used for natural language processing tasks, such as tokeniza
 The intents and patterns can be expanded for a more diverse user experience.
 
 ## Screenshots
-![Chatbot Interface](/screenshots/chatbot_interface.png)
+![Chatbot Interface](/screenshots/chatbot_screenshot.png)
